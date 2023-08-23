@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Open Sans",Arial; 
+    background-image: url('../img/camion4.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Para evitar que el desenfoque se propague fuera del cuerpo */
+    backdrop-filter: blur(2px); /* Ajusta el valor de desenfoque según tus preferencias */
+  }
+  
+.parent-container{
+    display: flex;
+    flex-direction:column;    
+    width: 400px;
+    height: 600px;
+
+    position: relative; /* Permite que los elementos internos sean posicionados relativamente */
+    background: rgba(255, 255, 255, 0.81); /* Fondo transparente con transparencia */    
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para dar un efecto de elevación */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borde para simular el efecto de sobresalir */
+  }
+
+.left-container{
+    padding: 50px;
+    margin-top: 30px;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: #434242;
+    margin-bottom: 50px;
+}
+
+h1 div{
+    color: #0571d7;
+    margin-top: 12px;
+    font-weight:bolder;
+    
+}
+
+h2{
+    color: #434242;
+    font-size: 20px;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    width: 291px;
+    border-bottom: 2px solid #207fd9;
+    
+}
+
+.inconologin{
+  padding-right: 13px;  
+}
+
+.input{
+    width: 100%;
+    height: 38px;
+    border: none;
+    background-color: transparent;    
+    outline: none;
+    font-size: 20px;
+    color: #434242 ;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn input{
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    background:#207fd9;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.submit:hover{
+    background: #74bbfe;
+}
+  
+footer{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    padding-top: 3px;
+    opacity: .8
+}
